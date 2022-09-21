@@ -5,9 +5,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function Cards(props) {
+export default function Skill_Card(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, mx: "auto", height: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"

@@ -1,0 +1,9 @@
+.footer_container {
+    display: flex;
+    margin-top: 3rem;
+    height: 3.5rem;
+    color: #FFFFFF;
+    background: #1976d2;
+    align-items: center;
+    justify-content: center;
+}
