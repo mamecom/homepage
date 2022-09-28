@@ -7,6 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function Skill_Card(props) {
   return (
+    <div>
     <Card sx={{ maxWidth: 345, mx: "auto", height: 400 }}>
       <CardActionArea>
         <CardMedia
@@ -25,5 +26,6 @@ export default function Skill_Card(props) {
         </CardContent>
       </CardActionArea>
     </Card>
+    </div>
   );
 }

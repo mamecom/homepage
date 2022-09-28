@@ -1,21 +1,21 @@
 import * as React from 'react';
 
+//モジュール
+import MyselfCard from '../modules/MyselfCard';
 
-import MyselfPaper from '../modules/MyselfPaper';
+//CSS
+import './pages.css';
 
 const constant = [
     {title: '自己紹介',
-    content: '文系大学卒で3年ほど大手IT企業で組み込み系の仕事を携わっていました。<br>',
+    content: '文系大学卒26歳です。　就職を機に組み込み系システムで3年ほど経験を積みました。',
     pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
 ]
 
 export default function Myself() {
     return(
-        <div>
-            {/* <MyselfPaper /> */}
-            <div>
-            <img src={`${process.env.PUBLIC_URL}/image/notebook.jpeg`} width="50%" height="50%" />
-            </div>
+        <div class="myselfCard">
+            <MyselfCard title={constant[0].title} contents={constant[0].content} images={constant[0].pic} />
         </div>
     );
 }

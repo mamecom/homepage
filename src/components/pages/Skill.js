@@ -3,6 +3,8 @@ import Grid from '@mui/material/Grid';
 
 import Skill_Card from '../modules/Card';
 
+import './pages.css';
+
 const constant = [
     {title: 'HTML CSS', 
         content: '見やすさ、メンテナンス性を意識しております。', 
@@ -24,6 +26,7 @@ const constant = [
 export default function Skill(){
     return(
         <div>
+            <h2 className="title">Slill</h2>
             <Grid
                 justifyContent="center"
                 alignItems="center"
