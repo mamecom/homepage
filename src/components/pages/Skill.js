@@ -8,25 +8,25 @@ import './pages.css';
 const constant = [
     {title: 'HTML CSS', 
         content: '見やすさ、メンテナンス性を意識しております。', 
-        pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
+        pic: `${process.env.PUBLIC_URL}/image/html.jpg`,},
     {title: 'C++', 
         content: '組み込み系業務で3年ほど経験しており、詳細設計からテストまでできます。こまかくメソッドを分けて見やすさ、メンテナンス性を意識しております。', 
-        pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
+        pic: `${process.env.PUBLIC_URL}/image/C++.jpg`,},
     {title: 'Python3', 
         content: 'C++と同様でメンテナンス性を意識しております。', 
-        pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
+        pic: `${process.env.PUBLIC_URL}/image/python.jpg`,},
     {title: '製品評価', 
         content: 'リリース前の製品において、第三者チェックというのは品質面でとても重要視されていおます。ユーザビリティに特化した品質意識も可能です。', 
-        pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
+        pic: `${process.env.PUBLIC_URL}/image/evaluation.jpg`,},
     {title: 'WordPress', 
         content: 'HP等の保守、運用が可能です。既存バグや保守内容の提案等も行い、ユーザー目線に立った運用を心がけております。', 
-        pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
+        pic: `${process.env.PUBLIC_URL}/image/wordpress.jpg`,},
 ]
 
 export default function Skill(){
     return(
         <div>
-            <h2 className="title">Slill</h2>
+            <h2 className="title">Skill</h2>
             <Grid
                 justifyContent="center"
                 alignItems="center"

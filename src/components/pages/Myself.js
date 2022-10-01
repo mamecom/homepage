@@ -7,7 +7,7 @@ import MyselfCard from '../modules/MyselfCard';
 import './pages.css';
 
 const constant = [
-    {title: '自己紹介',
+    {title: 'Profile',
     content: '文系大学卒26歳です。　就職を機に組み込み系システムで3年ほど経験を積みました。',
     pic: `${process.env.PUBLIC_URL}/image/notebook.jpeg`,},
 ]
